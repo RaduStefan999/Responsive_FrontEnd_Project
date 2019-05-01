@@ -1,0 +1,393 @@
+/* Main Atributes */
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: rgba(28, 28, 32, 1);
+}
+
+@font-face {
+    font-family: RaleWey-Medium;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: RaleWey-Light;
+    src: url(../fonts/Raleway-Light.ttf);
+}
+
+/*Sections structure */
+
+.section-frame {
+    font-family: RaleWey-Light;
+    position: relative;
+    
+}
+
+#section-1 {
+    height: 98vh;
+}
+
+#section-4 {
+    height: 130vh;
+}
+
+/*Text Options*/
+
+.caps {
+    text-transform: uppercase;
+}
+
+.more {
+    color: rgb(63, 63, 63);
+}
+
+.whitetext p {
+    color: rgb(255, 255, 255);
+
+}
+
+.whitetext h1, h2, h3, h4, h5, h6 {
+    color: rgb(134, 134, 134);
+    
+}
+
+.vertical-text {
+    color: rgb(255, 255, 255);
+
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari 3-8 */
+    transform: rotate(180deg);
+
+    margin-top: 40px;
+    margin-right: 12px;
+    
+}
+
+/*Decorations*/
+
+.decoration-type-1 {
+    position: absolute;
+    z-index: -10;
+
+    border-bottom: 100vh solid;
+    border-color: rgb(25, 25, 28);
+	border-left: 26vw solid transparent;
+	border-right: 5vw solid transparent;
+	width: 55vw;
+}
+
+#bg-decoration-1 {
+    top: 0;
+    left: 0; 
+    right: 0; 
+
+    margin: 0 auto;
+}
+
+#bg-decoration-2 {
+    top: 12vw;
+    left: 0; 
+    right: 0; 
+
+    margin: 0 auto;
+}
+
+#bg-decoration-3 {
+    top: 0;
+    left: -30vw; 
+    right: 0; 
+    width: 70vw;
+    border-bottom: 130vh solid;
+    border-color: rgb(25, 25, 28);
+    border-right: 6vw solid transparent;
+}
+
+/*Deviders*/
+
+.section-devider {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    z-index: 20;
+}
+
+/* Navigation */
+
+#main-navigation {
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    z-index: 100;
+}
+
+#main-navigation > ul {
+    list-style: none;
+    margin-top: 60px;
+}
+
+#main-navigation a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+
+#main-navigation i {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* Main Image Presentation */
+
+#top-image {
+    position: absolute;
+    margin: 10px;
+    z-index: 20;
+}
+
+#main-presentation {
+    position: absolute;
+    width: 100vw;
+    top: 0px;
+}
+
+#main-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-image: url("../images/house.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-presentation > div > div {
+    height: 98vh;
+}
+
+#middle {
+    border-left: solid;
+    border-right: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+}
+
+.action-buttons {
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 32, 32);
+    font-size: 3vw;
+    border: 2px;
+    border-radius: 1px;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 10px;
+}
+
+#button_one {
+    position: absolute;
+    bottom: 15vh;
+    right: 0px;
+}
+
+#button_two {
+    position: absolute;
+    bottom: 25vh;
+    left: 0px;
+}
+
+#button_three {
+    position: absolute;
+    bottom: 8vh;
+    left: 0px;
+}
+
+/* About */
+
+
+#about {
+    position: relative;
+    top: 3vw;
+    width: 80%;
+}
+
+/* Approach */
+
+#approach {
+    margin-top: 17vh;
+    width: 80%
+}
+
+#approach-images {
+    margin-top: 14vh;
+}
+
+#approach-images h4 {
+    width: 300px;
+    margin: 30px auto;
+}
+
+/* Featured */
+
+#featured {
+    position: relative;
+    margin-top: 100px;
+}
+
+.project-container {
+    margin-top: 16vh;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-right:-15px;
+    margin-left:-15px
+}
+
+.project {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45vw;
+    height: 45vh;
+    margin: 50px 0 0 0;
+}
+
+.left-side {
+    margin-left: 12vw;
+}
+
+.left-side h1 {
+    text-align: left;
+    margin-left: 11vw;
+}
+
+.right-side h1 {
+    text-align: left;
+    margin-left: 23vw;
+}
+
+.right-side {
+    margin-left: -30vw;
+    margin-top: 4vw;
+}
+
+/* Steps */
+
+#steps {
+    position: relative;
+    top: 100px;
+    width: 80%;
+    height: 130vh;
+}
+
+.steps-image {
+    width: 200px;
+    height: 260px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#steps h1 {
+    margin-bottom: 10vh;
+}
+
+/* News */
+
+#news {
+    position: relative;
+    margin-top: 100px;
+    width: 80%;
+}
+
+.news-frames {
+    margin-top: 50px;
+}
+
+.news-info {
+    text-align: left !important;
+}
+
+.news-info h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Footer */
+
+#footer-section {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: RaleWey-Light;
+}
+
+.info-list {
+    color: rgb(255, 255, 255);
+}
+
+.info-list ul {
+    list-style-type: none;
+    margin-left: 5vw;
+}
+
+.quickicons-list {
+    margin-left: 10vw;
+}
+
+.quickicons {
+    font-size: 50px;
+    margin-left: 5vw;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 920px) {
+    .left-side {
+        margin-left: 0vw;
+    }
+    
+    .right-side {
+        margin-left: 0vw;
+        margin-top: 0vw;
+    }
+    .project-container {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #main-navigation {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #section-4 {
+        height: 200vh;
+    }
+    #steps {
+        height: 200vh;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .news-info {
+        text-align: center !important;
+    }
+}
