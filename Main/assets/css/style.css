@@ -123,6 +123,38 @@ body {
     z-index: 20;
 }
 
+/*Spacers*/
+
+.spacer-2 {
+    line-height: 150%;
+    vertical-align: top;
+}
+
+.spacer-3 {
+    line-height: 300%;
+    vertical-align: top;
+}
+
+.spacer-4 {
+    line-height: 450%;
+    vertical-align: top;
+}
+
+.spacer-5 {
+    line-height: 600%;
+    vertical-align: top;
+}
+
+.spacer-6 {
+    line-height: 750%;
+    vertical-align: top;
+}
+
+.spacer-7 {
+    line-height: 950%;
+    vertical-align: top;
+}
+
 /* Navigation */
 
 #main-navigation {
@@ -157,9 +189,11 @@ body {
 
 #responsive-navigation {
     position: fixed;
+    width: 100%;
     right: 0;
     z-index: 100;
     display: none;
+    background-color: rgb(0, 0, 0);
 }
 
 /* Main Image Presentation */
@@ -234,20 +268,12 @@ body {
     left: 0px;
 }
 
-/* About */
+/* About&Approach */
 
 
-#about {
+#about-approach {
     position: relative;
-    top: 3vw;
     width: 80%;
-}
-
-/* Approach */
-
-#approach {
-    margin-top: 17vh;
-    width: 80%
 }
 
 #approach-images {
@@ -307,12 +333,7 @@ body {
 #steps {
     position: relative;
     margin: 0 auto;
-    top: 100px;
     width: 80%;
-}
-
-#steps-devider {
-    top: 100px;
 }
 
 .steps-image {
@@ -335,7 +356,6 @@ body {
 
 #news {
     position: relative;
-    margin-top: 100px;
     width: 80%;
 }
 
@@ -401,6 +421,9 @@ body {
     }
     #responsive-navigation {
         display: block;
+    }
+    #top-image {
+        display: none;
     }
 }
 
