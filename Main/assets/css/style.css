@@ -172,6 +172,14 @@ body {
     margin-top: 60px;
 }
 
+#main-navigation > ul > li {
+    cursor: pointer;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
 .navi-buttons {
     color: rgb(255, 255, 255);
     font-size: 26px;
