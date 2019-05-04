@@ -69,7 +69,7 @@ body {
     transform: rotate(180deg);
 
     margin-top: 40px;
-    margin-right: 12px;
+    margin-left: -5px;
     
 }
 
@@ -164,6 +164,7 @@ body {
     width: 100px;
     background-color: rgb(0, 0, 0);
     z-index: 100;
+    font-size: 14px;
 }
 
 #main-navigation > ul {
@@ -171,20 +172,10 @@ body {
     margin-top: 60px;
 }
 
-#main-navigation a {
-    text-decoration: none;
+.navi-buttons {
     color: rgb(255, 255, 255);
-    font-size: 13px;
-}
-
-#main-navigation i {
+    font-size: 26px;
     margin-bottom: 40px;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-}
-
-.scnd-bg {
-    background-color: rgba(0, 0, 0, 0);
 }
 
 #responsive-navigation {
@@ -194,6 +185,46 @@ body {
     z-index: 100;
     display: none;
     background-color: rgb(0, 0, 0);
+}
+
+/* Active Navigation Buttons*/
+
+.active-navi {
+    width: 300px;
+    height: 80px;
+    position: relative;
+    right: 100px;
+
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari 3-8 */
+    transform: rotate(0deg);
+
+    writing-mode: inherit;
+    text-orientation: inherit;
+
+    background-color: rgb(0, 0, 0);
+
+    padding: solid rgb(0, 0, 0);
+
+    padding: 26px;
+}
+
+.close-buttons {
+    display: none;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    left: 10px;
+}
+
+.navi-buttons ~ i{
+   position: relative;
+   bottom: 4px;
+   left: 60px;
+}
+
+.active-navi .close-buttons {
+    display: inline;
 }
 
 /* Main Image Presentation */
@@ -350,29 +381,6 @@ body {
     margin: 50px auto 0;
 }
 
-.left-side {
-    margin-left: 12vw;
-}
-
-.left-side h1 {
-    text-align: left;
-    margin-left: 11vw;
-}
-
-.right-side h1 {
-    text-align: left;
-    margin-left: 23vw;
-}
-
-.right-side {
-    margin-left: -30vw;
-    margin-top: 4vw;
-}
-
-.responsive-side {
-    display: none;
-}
-
 /* Steps */
 
 #steps {
@@ -482,6 +490,24 @@ body {
 
     #responsive-presentation {
         display: block;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    #main-navigation {
+        display: none;
+    }
+    #responsive-navigation {
+        display: block;
+    }
+    #top-image {
+        display: none;
+    }
+    .section-frame {
+        width: 100vw;
+    }
+    #main-presentation {
+        width: 100vw;
     }
 }
 
