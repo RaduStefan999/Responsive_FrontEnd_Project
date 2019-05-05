@@ -256,6 +256,34 @@ body {
     display: none;
 }
 
+/* Menu */
+
+#nav-section-menu-container {
+    position: relative;
+    top: 20vh;
+    left: 10vw;
+}
+
+#nav-section-menu-container ul {
+    list-style: none;
+}
+
+#nav-section-menu-container h1 {
+    margin-left: 35px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+#nav-section-menu-container a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+/* Search */
+
+
+
 /* Main Image Presentation */
 
 .top-image {
