@@ -79,6 +79,47 @@ $(document).ready(function(){
     }
 
 
+    //Sustainability
+
+    var $accreditation_button_1 = $("#accreditation-button-1");
+    var $accreditation_button_2 = $("#accreditation-button-2");
+    var $accreditation_button_3 = $("#accreditation-button-3");
+
+    var $accreditation_text_1 = $("#accreditation-text-1");
+    var $accreditation_text_2 = $("#accreditation-text-2");
+    var $accreditation_text_3 = $("#accreditation-text-3");
+
+    $accreditation_button_1.click(function(){ sustainability_general($accreditation_button_1, $accreditation_text_1); });
+    $accreditation_button_2.click(function(){ sustainability_general($accreditation_button_2, $accreditation_text_2); });
+    $accreditation_button_3.click(function(){ sustainability_general($accreditation_button_3, $accreditation_text_3); });
+
+    function sustainability_general ($element, $target) {
+      $element.toggleClass("active-accreditation-button");
+
+      if ($element != $accreditation_button_1) {
+        $accreditation_button_1.removeClass("active-accreditation-button");
+        $accreditation_text_1.addClass("hidden");
+      }
+      if ($element != $accreditation_button_2) {
+        $accreditation_button_2.removeClass("active-accreditation-button");
+        $accreditation_text_2.addClass("hidden");
+      }
+      if ($element != $accreditation_button_3) {
+        $accreditation_button_3.removeClass("active-accreditation-button");
+        $accreditation_text_3.addClass("hidden");
+      }
+
+      if ($element.hasClass("active-accreditation-button")) {
+        $target.removeClass("hidden");
+      }
+      else {
+        $target.addClass("hidden");
+      }
+
+
+    }
+
+
     //Main Presentation Effects
 
     $("#button_one").hover(function(){
