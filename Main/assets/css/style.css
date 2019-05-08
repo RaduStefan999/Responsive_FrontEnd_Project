@@ -684,9 +684,19 @@ body {
 
 .news-frames {
     margin-top: 50px;
+    vertical-align: middle;
+    display: table;
+}
+
+.news-frames > img {
+    display: table-cell;
 }
 
 .news-info {
+    position: relative;
+    vertical-align: middle;
+    left: 50px;
+    display: table-cell;
     text-align: left !important;
 }
 
@@ -823,8 +833,16 @@ body {
 
 /*News*/
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 792px) {
+    .news-frames {
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .news-info {
         text-align: center !important;
+        left: 0;
     }
 }
