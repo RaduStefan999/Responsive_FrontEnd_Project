@@ -911,11 +911,11 @@ body {
 .title-text {
     border-top: solid;
     border-bottom: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: rgb(0, 0, 0);
-    padding: 35px;
+    padding: 35px 14vw 35px 14vw;
 
-    color: #25d9b8;
+    color: rgb(37, 217, 184);
 }
 
 
