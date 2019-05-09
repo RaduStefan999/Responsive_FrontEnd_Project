@@ -804,7 +804,6 @@ body {
     #section-1 {
         height: auto;
     }
-
     #responsive-presentation {
         display: block;
     }
@@ -892,5 +891,36 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+}
+
+/*External Resorces*/
+
+#section-title {
+    position: relative;
+}
+
+#title {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center; 
+}
+
+.title-text {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    padding: 35px;
+
+    color: #25d9b8;
+}
+
+
+@media only screen and (max-width: 700px) {
+    #section-title {
+        top: 75px;
     }
 }
