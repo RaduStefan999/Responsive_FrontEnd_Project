@@ -1,0 +1,51 @@
+#ai-info > img {
+    width: 96%;
+    height: 70vh;
+    margin-top: 52px;
+    margin-bottom: 50px;
+}
+
+#ai-info > h1 {
+    width: 96%;
+    margin-bottom: 50px;
+    color: rgb(114, 104, 101);
+}
+
+#ai-info > p {
+    width: 96%;
+    margin-bottom: 80px;
+    color: rgb(255, 255, 255);
+}
+
+#ai-info > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ai-info > div > img {
+    margin: 40px;
+}
+
+#ai-info > a {
+    margin: 50px auto 100px auto;
+    display: inherit;
+    color: rgb(80, 227, 194);
+    border: solid rgb(80, 227, 194);
+    border-width: 1px;
+    width: 200px;
+    padding: 12px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    #ai-info > img {
+        margin-top: 135px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    #ai-info > img {
+        margin-top: 135px;
+    }
+}
