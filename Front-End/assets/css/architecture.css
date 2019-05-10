@@ -55,3 +55,9 @@
         margin-top: 135px;
     }
 }
+
+@media only screen and (max-height: 600px) {
+    .selector-bar {
+        margin-top: 135px;
+    }
+}

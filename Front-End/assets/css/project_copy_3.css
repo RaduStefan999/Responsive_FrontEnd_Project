@@ -1,0 +1,127 @@
+#project-list {
+    position: relative;
+}
+
+#project-list > div > div:nth-child(1) {
+    width: 70%
+}
+
+.project-butel-points {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.project-butel-points > p {
+    display: list-item;         
+    list-style-type: disc;       
+    list-style-position: inside;
+
+    color: rgb(185, 185, 185);
+    margin-right: 20px;
+}
+
+.project-sumary-points {
+    font-size: 24px;
+    border-bottom: solid rgb(145, 111, 59);
+    border-width: 1px;
+}
+
+.project-sumary-points > p {
+    margin-right: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.active-sumary-points {
+    color: rgb(145, 111, 59) !important;
+}
+
+.project-list-points > p {
+    margin-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    border-bottom: solid rgb(0, 0, 0);
+    border-width: 1px;
+}
+
+.text-content {
+    margin-top: 50px;
+}
+
+.text-content > p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.text-content > h4 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.text-content > a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.main-display {
+    position: relative;
+    width: 100%;
+    padding-top: 60%;
+    background-image: url("../images/sample-project-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secondary-display {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondary-display > img {
+    width: 100%;
+    height: 200px;
+}
+
+.main-display-comutator {
+    position: absolute;
+    right: 0;
+    margin-top: -80px;
+}
+
+.main-display-comutator > div {
+    background-color: rgb(255, 255, 255);
+    margin: 6px;
+}
+
+.main-display-comutator > div > i {
+    font-size: 30px;
+    margin: 8px;
+}
+
+.project-control-butons {
+    margin-top: 70px;
+    margin-bottom: 300px;
+}
+
+.project-control-butons > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: black;
+    padding: 12px 40px 12px 40px;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+    .project-butel-points {
+        margin-top: 135px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .project-butel-points {
+        margin-top: 135px;
+    }
+}

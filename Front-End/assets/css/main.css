@@ -924,3 +924,9 @@ body {
         top: 75px;
     }
 }
+
+@media only screen and (max-height: 600px) {
+    #section-title {
+        top: 75px;
+    }
+}
