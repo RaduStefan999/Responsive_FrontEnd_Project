@@ -1,0 +1,125 @@
+input[type=checkbox]
+{
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+  padding: 10px;
+}
+
+#prefab2-info > p {
+    color: rgb(255, 255, 255);
+}
+
+#prefab2-info-navigator > p {
+    margin-right: 26px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.active-prefab2-info-navigator {
+    color: rgb(35, 192, 164) !important;
+}
+
+#drag-drop-presenter {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#drag-drop-presenter-mainimage {
+    max-width: 100%;
+    padding-top: 100vh;
+    background-image: url("../images/prefab2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#drag-drop-presenter-actors {
+    width: 107%;
+    height: 100vh;
+
+    overflow-y: auto;
+
+    border-top: solid rgb(0, 0, 0);
+    border-bottom: solid rgb(0, 0, 0);
+    border-width: 5px;
+}
+
+#drag-drop-presenter-actors > ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 25%;
+}
+
+#drag-drop-presenter-actors > ul > li {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+#drag-drop-presenter-actors > ul > li {
+    color: rgb(35, 192, 164) !important;
+}
+
+#drag-drop-presenter-actors > ul > li > p {
+    color: rgb(255, 255, 255) !important;
+}
+
+#drag-drop-presenter-actors > ul > li:first-child {
+    color: rgb(0, 0, 0) !important;
+    font-size: 40px
+}
+
+#drag-drop-presenter-actors > ul > li:last-child {
+    color: rgb(0, 0, 0) !important;
+    font-size: 40px
+}
+
+.drag-drop-choice {
+    margin: 20px auto 0;
+    width: 80%;
+}
+
+.drag-drop-choice > * {
+    margin-right: 60px;
+}
+
+.choice-rectangle {
+    width: 120px;
+    height: 40px;
+    border: solid rgb(255, 255, 255);
+    border-width: 1px;
+}
+
+#section-prefab2 a {
+    display: inherit;
+    color: rgb(80, 227, 194);
+    border: solid rgb(80, 227, 194);
+    border-width: 1px;
+    width: 200px;
+    padding: 12px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#section-prefab2 > p {
+    color: white;
+    margin: 0 auto;
+    width: 200px;
+}
+
+@media only screen and (max-width: 700px) {
+    #prefab2-info {
+        margin-top: 85px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    #prefab2-info {
+        margin-top: 85px;
+    }
+}
