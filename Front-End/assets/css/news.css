@@ -1,0 +1,11 @@
+.selector-bar > p {
+    margin-right: 40px;
+    font-size: 13px;
+    color: rgb(189, 143, 70);
+    cursor: pointer;
+}
+
+.selector-bar {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
