@@ -332,10 +332,10 @@ body {
 
 #nav-section-menu-container ul {
     list-style: none;
+    padding-left: 0px;
 }
 
 #nav-section-menu-container h1 {
-    margin-left: 35px;
     margin-bottom: 50px;
     font-size: 60px;
     color: rgb(0, 0, 0);
