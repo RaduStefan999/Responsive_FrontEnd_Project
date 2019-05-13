@@ -620,7 +620,7 @@ body {
     border-width: 10px;
 }
 
-/* About&Approach */
+/* About & Approach */
 
 
 #about-approach {
@@ -633,7 +633,6 @@ body {
 }
 
 #approach-images h5 {
-    width: 300px;
     margin: 30px auto;
     color: rgb(189, 143, 70);
 }
