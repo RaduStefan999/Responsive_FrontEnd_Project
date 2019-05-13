@@ -8,8 +8,8 @@ body {
 }
 
 @font-face {
-    font-family: DIN-Regular;
-    src: url(../fonts/DIN-Regular.ttf);
+    font-family: DIN;
+    src: url(../fonts/DIN-Medium.ttf);
 }
 
 @font-face {
@@ -48,14 +48,31 @@ body {
     color: rgb(63, 63, 63);
 }
 
-.whitetext p {
+.whitetext {
     color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
 
 }
 
-.whitetext h1, h2, h3, h4, h5, h6 {
-    color: rgb(134, 134, 134);
-    
+.content_title {
+    margin-bottom: 40px;
+
+    margin-top: 100px;
+
+    font-size: 50px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -1.1px;
+    text-align: center;
+    color: rgb(114, 104, 101);
 }
 
 .vertical-text {
@@ -116,7 +133,7 @@ body {
 }
 
 #bg-decoration-3 {
-    top: 0;
+    top: -100px;
     left: 0; 
     width: 40vw;
     border-bottom: 74vh solid;
@@ -178,35 +195,7 @@ body {
 
 /*Spacers*/
 
-.spacer-2 {
-    line-height: 150%;
-    vertical-align: top;
-}
 
-.spacer-3 {
-    line-height: 300%;
-    vertical-align: top;
-}
-
-.spacer-4 {
-    line-height: 450%;
-    vertical-align: top;
-}
-
-.spacer-5 {
-    line-height: 600%;
-    vertical-align: top;
-}
-
-.spacer-6 {
-    line-height: 750%;
-    vertical-align: top;
-}
-
-.spacer-7 {
-    line-height: 950%;
-    vertical-align: top;
-}
 
 /* Others */
 
@@ -669,16 +658,29 @@ body {
 
 #about-approach {
     position: relative;
-    width: 60%;
+    width: 73%;
 }
 
 #approach-images {
-    margin-top: 14vh;
+    margin-top: 18vh;
 }
 
 #approach-images h5 {
-    margin: 30px auto;
+    margin: 7vh auto 12vh auto;
+    
+    font-family: DIN;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal; 
+    letter-spacing: -0.3px;
+    text-align: center;
     color: rgb(189, 143, 70);
+}
+
+#approach-area {
+    margin-top: 28vh;
 }
 
 /* Featured */
@@ -717,13 +719,6 @@ body {
     background-size: cover;
 }
 
-#steps h1 {
-    margin-bottom: 10vh;
-}
-
-.steps-text {
-    text-align: left;
-}
 
 /* News */
 
@@ -818,6 +813,26 @@ body {
 
 
 /*Responsive*/
+
+/*Shapes*/
+
+@media only screen and (max-width: 900px) {
+    .decoration-type-1 {
+        display: none;
+    }
+    .decoration-type-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 400px) {
+    .decoration-type-1 {
+        display: none;
+    }
+    .decoration-type-2 {
+        display: none;
+    }
+}
 
 
 /*Navigation*/
