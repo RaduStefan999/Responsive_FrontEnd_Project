@@ -2,7 +2,6 @@
 
 body {
     margin: 0px;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: rgba(28, 28, 32, 1);
 }
@@ -264,6 +263,15 @@ body {
     z-index: 100;
     display: none;
     background-color: rgb(0, 0, 0);
+}
+
+#responsive-navigation-menu {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 40px;
 }
 
 /* Active Navigation Buttons*/

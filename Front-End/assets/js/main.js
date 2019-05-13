@@ -6,23 +6,19 @@ $(document).ready(function(){
 
 
     var $menu = $("#nav_menu");
-    var $menu_responsive = $("#responsive_menu");
+    var $menu_responsive = $("#responsive-navigation-menu");
     var $nav_section_menu = $("#nav-section-menu");
 
     var $search = $("#nav_search");
-    var $search_responsive = $("#responsive_search");
     var $nav_section_search = $("#nav-section-search");
 
     var $contact = $("#nav_contact");
-    var $contact_responsive = $("#responsive_contact");
     var $nav_section_contact = $("#nav-section-contact");
 
     var $referenser = $("#nav_referenser");
-    var $referenser_resposnive = $("#responsive_referenser");
     var $nav_section_referenser = $("#nav-section-referenser");
 
     var $sustainability = $("#nav_sustainability");
-    var $sustainability_responsive = $("#responsive_sustainability");
     var $nav_section_sustainability = $("#nav-section-sustainability");
 
 
@@ -30,16 +26,12 @@ $(document).ready(function(){
     $menu_responsive.click(function(){ nav_general($menu, $nav_section_menu); });
 
     $search.click(function(){ nav_general($search, $nav_section_search); });
-    $search_responsive.click(function(){ nav_general($search, $nav_section_search); });
 
     $contact.click(function(){ nav_general($contact, $nav_section_contact); });
-    $contact_responsive.click(function(){ nav_general($contact, $nav_section_contact); });
 
     $referenser.click(function(){ nav_general($referenser, $nav_section_referenser); });
-    $referenser_resposnive.click(function(){ nav_general($referenser, $nav_section_referenser); });
 
     $sustainability.click(function(){ nav_general($sustainability, $nav_section_sustainability); });
-    $sustainability_responsive.click(function(){ nav_general($sustainability, $nav_section_sustainability); });
 
 
 
