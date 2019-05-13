@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.circle:before {
+  content: ' \25CF';
+}
 .icon-sort-right:before {
   content: "\e900";
 }
