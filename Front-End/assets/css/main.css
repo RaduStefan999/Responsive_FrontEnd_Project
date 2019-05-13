@@ -240,15 +240,18 @@ body {
 
 #main-navigation > ul > li {
     cursor: pointer;
-}
-
-.nav-item {
-    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.3px;
 }
 
 .navi-buttons {
     color: rgb(255, 255, 255);
-    font-size: 26px;
+    font-size: 29px;
+    margin-left: -10px;
     margin-bottom: 40px;
 }
 
