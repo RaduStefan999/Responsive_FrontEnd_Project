@@ -115,29 +115,41 @@ $(document).ready(function(){
     //Main Presentation Effects
 
     $("#button_one").hover(function(){
-        
-      $("#main-image").css("background-image", "url(" + "assets/images/sample-project-1.jpg" + ")");
+
+        $("#main-image").css("background-image", "url(" + "assets/images/sample-project-1.jpg" + ")");
+        $("#button_one").toggleClass("active-action-buttons");
       }, 
+
       function(){
-      $("#main-image").css("background-image", "url(" + "none" + ")");
+
+        $("#main-image").css("background-image", "url(" + "none" + ")");
+        $("#button_one").toggleClass("active-action-buttons");
 
     });
 
     $("#button_two").hover(function(){
         
-        $("#main-image").css("background-image", "url(" + "assets/images/sample-project-2.jpg" + ")");
+          $("#main-image").css("background-image", "url(" + "assets/images/sample-project-2.jpg" + ")");
+          $("#button_two").toggleClass("active-action-buttons");
         }, 
+
         function(){
-        $("#main-image").css("background-image", "url(" + "none" + ")");
+
+          $("#main-image").css("background-image", "url(" + "none" + ")");
+          $("#button_two").toggleClass("active-action-buttons");
   
     });
 
     $("#button_three").hover(function(){
         
-        $("#main-image").css("background-image", "url(" + "assets/images/sample-project-3.jpg" + ")");
+          $("#main-image").css("background-image", "url(" + "assets/images/sample-project-3.jpg" + ")");
+          $("#button_three").toggleClass("active-action-buttons");
         }, 
+
         function(){
-        $("#main-image").css("background-image", "url(" + "none" + ")");
+
+          $("#main-image").css("background-image", "url(" + "none" + ")");
+          $("#button_three").toggleClass("active-action-buttons");
   
     });
 

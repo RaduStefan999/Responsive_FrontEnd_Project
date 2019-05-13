@@ -13,19 +13,14 @@ body {
 }
 
 @font-face {
-    font-family: RaleWey-Medium;
-    src: url(../fonts/Raleway-Medium.ttf);
-}
-
-@font-face {
-    font-family: RaleWey-Light;
-    src: url(../fonts/Raleway-Light.ttf);
+    font-family: DINRegularAlternate;
+    src: url(../fonts/DINRegularAlternate.ttf);
 }
 
 /*Sections structure */
 
 .section-frame {
-    font-family: DIN-Regular;
+    font-family: DINRegularAlternate;
     position: relative;
     
     /* Firefox */
@@ -555,31 +550,69 @@ body {
 }
 
 .action-buttons {
-    background-color: rgb(255, 255, 255);
+    width: 18vw;
+
+    background-color: rgba(255, 255, 255, 0.8);
     color: rgb(32, 32, 32);
+    border: solid rgb(0, 0, 0);
+    border-width: 1px;
+
     font-size: 3vw;
-    border: 2px;
-    border-radius: 1px;
-    border: solid;
-    border-color: rgb(255, 255, 255);
-    border-width: 10px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.7px;
+
+    text-align: center;
+}
+
+.action-buttons a {
+    display: none;
+}
+
+.active-action-buttons {
+    width: 28vw;
+
+    padding: 12px;
+
+    font-size: 4vw;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+.active-action-buttons a {
+    display: inherit;
+    text-decoration: none;
+    font-size: 1.5vw;
+    width: 10vw;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 0.5vh;
+    margin-bottom: 0.7vh;
+
+
+    border: solid 2px #1dae93;
 }
 
 #button_one {
     position: absolute;
-    bottom: 15vh;
+    bottom: 26vh;
     right: 0px;
 }
 
 #button_two {
     position: absolute;
-    bottom: 25vh;
+    bottom: 42vh;
     left: 0px;
 }
 
 #button_three {
     position: absolute;
-    bottom: 8vh;
+    bottom: 14vh;
     left: 0px;
 }
 
