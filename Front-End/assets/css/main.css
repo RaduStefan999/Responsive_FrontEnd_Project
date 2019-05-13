@@ -809,7 +809,7 @@ body {
     justify-content: center;
 }
 
-.quickicons-list i {
+.quickicons-list span {
     margin: 20px;
 }
 
