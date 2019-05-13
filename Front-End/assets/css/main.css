@@ -44,8 +44,25 @@ body {
     text-transform: uppercase;
 }
 
-.more {
-    color: rgb(63, 63, 63);
+.more p {
+    display: inline;
+    font-family: DIN;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    color: rgb(37, 217, 184);
+    text-decoration: rgb(151, 151, 151) underline;
+}
+
+.more span {
+    position: relative;
+    color: rgb(151, 151, 151);
+    top: 10px;
+    left: -10px;
+    
 }
 
 .whitetext {
