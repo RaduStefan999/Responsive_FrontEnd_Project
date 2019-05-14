@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="assets/css/main.css" >
     <link rel="stylesheet" href="assets/css/project_copy_3.css" >
 
+    <!-- Custom icons -->
+    <link rel="stylesheet" href="assets/icons/Custom-Icons/custom-icons.css">
+
 
     <title>Project_copy_3</title>
 
@@ -20,13 +23,14 @@
   
   <body>
 
-    <!--Navigation-->
 
-    <nav id="main-navigation">
+    <!--Navigation-->
     
+    <nav id="main-navigation">
+        
         <ul>
             <li id="nav_menu"> <i class="fas fa-bars navi-buttons"></i> <i class="fas fa-times close-buttons"></i> </li>
-            <li id="nav_search"> <i class="fas fa-search navi-buttons"></i> <i class="fas fa-times close-buttons"></i> </li>
+            <li id="nav_search"> <span class="icon-search navi-buttons"></span> <i class="fas fa-times close-buttons"></i> </li>
             <li id="nav_contact" class="vertical-text caps">Contact <i class="fas fa-times close-buttons"></i> </li>
             <li id="nav_sustainability" class="vertical-text caps"> Sustainability <i class="fas fa-times close-buttons"></i> </li>
             <li id="nav_referenser" class="vertical-text caps">Referenser <i class="fas fa-times close-buttons"></i> </li>
@@ -37,39 +41,10 @@
     <nav id="responsive-navigation" class="navbar navbar-expand-lg navbar-dark ">
 
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" width="170" height="50" /></a>
+            <a class="navbar-brand"><img src="assets/images/logo.png" width="176" height="48" /></a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarButtons" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarButtons">
-                <ul class="navbar-nav ml-auto">
-
-                    <li class="nav-item">
-                        <a id="responsive_referenser" class="nav-link">Referenser</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a id="responsive_sustainability" class="nav-link">Sustainability</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a id="responsive_contact" class="nav-link">Contact</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a id="responsive_menu" class="nav-link">Menu</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a id="responsive_search" class="nav-link"><i class="fas fa-search"></i></a>
-                    </li>
-
-                </ul>
-
-            </div>
-            
+            <a id="responsive-navigation-menu" > <i class="fas fa-bars"></i> </a>
+                   
         </div>
 
     </nav>
@@ -80,7 +55,7 @@
 
     <div id="nav-section-menu" class="section-frame hidden">
 
-        <img class="top-image" src="assets/images/logo.png" width="170" height="50" />
+        <img class="top-image" src="assets/images/logo.png" width="176" height="48" />
 
         <div id="nav-bg-decoration-1" class="decoration-type-1"></div>
 
@@ -88,23 +63,23 @@
             <h1><b>Menu</b></h1>
 
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Approach</a></li>
-                <li><a href="#">Steps</a></li>
-                <li><a href="#">News</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#section-2" class="element_navmenu">About</a></li>
+                <li><a href="./index.html#approach-area" class="element_navmenu">Approach</a></li>
+                <li><a href="./index.html#section-4" class="element_navmenu">Steps</a></li>
+                <li><a href="./index.html#section-5" class="element_navmenu">News</a></li>
             </ul>
 
             <ul>
-                <li><a href="#">Arkitectur</a></li>
-                <li><a href="#">Prefab</a></li>
-                <li><a href="#">Ai</a></li>
+                <li><a href="./architecture.html" href="#">Arkitectur</a></li>
+                <li><a href="./prefab.html" href="#">Prefab</a></li>
+                <li><a href="./ai.html" href="#">Ai</a></li>
             </ul>
 
             <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Sustainability</a></li>
-                <li><a href="#">Referenser</a></li>
+                <li><a href="#" id="contact_navmenu">Contact</a></li>
+                <li><a href="#" id="sustainability_navmenu">Sustainability</a></li>
+                <li><a href="#" id="referenser_navmenu">Referenser</a></li>
             </ul>
 
             <ul>
@@ -121,7 +96,7 @@
 
     <div id="nav-section-search" class="section-frame hidden">
         
-        <img class="top-image" src="assets/images/logo.png" width="170" height="50" />
+        <img class="top-image" src="assets/images/logo.png" width="176" height="48" />
 
         <div id="nav-bg-decoration-2" class="decoration-type-1"></div>
 
@@ -133,7 +108,7 @@
                 <div class="form-group mx-sm-3 mb-2">
                     <input type="text" class="form-control" id="inputsearch">
                 </div>
-                <button type="submit" class="btn btn-primary mb-2" id="submitsearch">Search</button>
+                <button type="submit" class="btn btn-primary mb-2" id="submitsearch"><span class="icon-search navi-buttons"></span></button>
             </form>
         </div>
 
@@ -144,7 +119,7 @@
 
     <div id="nav-section-contact" class="section-frame hidden">
     
-        <img class="top-image" src="assets/images/logo.png" width="170" height="50" />
+        <img class="top-image" src="assets/images/logo.png" width="176" height="48" />
 
         <div id="nav-bg-decoration-3" class="decoration-type-1"></div>
 
@@ -221,7 +196,7 @@
 
     <div id="nav-section-sustainability" class="section-frame hidden">
     
-        <img class="top-image" src="assets/images/logo.png" width="170" height="50" />
+        <img class="top-image" src="assets/images/logo.png" width="176" height="48" />
 
         <div id="nav-bg-decoration-4" class="decoration-type-1"></div>
         
@@ -252,7 +227,7 @@
 
     <div id="nav-section-referenser" class="section-frame hidden">
 
-        <img class="top-image" src="assets/images/logo.png" width="170" height="50" />
+        <img class="top-image" src="assets/images/logo.png" width="176" height="48" />
 
         <div id="nav-bg-decoration-5" class="decoration-type-2"></div>
 
@@ -308,6 +283,9 @@
         </div>
 
     </div>
+
+
+
 
     <!--Content-->
 
