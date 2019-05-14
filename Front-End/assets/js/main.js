@@ -153,4 +153,67 @@ $(document).ready(function(){
   
     });
 
+    $(".element_navmenu").click(function(){
+      $menu.removeClass("active-navi");
+      $nav_section_menu.addClass("hidden");
+      $content.removeClass("hidden");
+    });
+
+
+
+    $("#contact_navmenu").click(function(){
+      $menu.removeClass("active-navi");
+      $contact.addClass("active-navi");
+      $nav_section_menu.addClass("hidden");
+      $nav_section_contact.removeClass("hidden");
+    });
+
+    $("#sustainability_navmenu").click(function(){
+      $menu.removeClass("active-navi");
+      $sustainability.addClass("active-navi");
+      $nav_section_menu.addClass("hidden");
+      $nav_section_sustainability.removeClass("hidden");
+      
+    });
+
+    $("#referenser_navmenu").click(function(){
+      $menu.removeClass("active-navi");
+      $referenser.addClass("active-navi");
+      $nav_section_menu.addClass("hidden");
+      $nav_section_referenser.removeClass("hidden");
+      
+    });
+
+
+
+    $("#contact_footer").click(function(){
+      $content.addClass("hidden");
+      $contact.addClass("active-navi");
+      $nav_section_contact.removeClass("hidden");
+      
+    });
+
+    $("#sustainability_footer").click(function(){
+      $content.addClass("hidden");
+      $sustainability.addClass("active-navi");
+      $nav_section_sustainability.removeClass("hidden");
+      
+    });
+
+    $("#references_footer").click(function(){
+      $content.addClass("hidden");
+      $referenser.addClass("active-navi");
+      $nav_section_referenser.removeClass("hidden");
+      
+    });
+
+    $("#consultation_footer").click(function(){
+      $content.addClass("hidden");
+      $contact.addClass("active-navi");
+      $nav_section_contact.removeClass("hidden");
+      
+    });
+
+    
+
   });
