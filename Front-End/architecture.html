@@ -392,7 +392,7 @@
                     <p>4</p>
                     <p>5</p>
                     <p>6</p>
-                    <i class="fas fa-arrow-right"></i>
+                    <span class="icon-arrow-right"></span>
                 </div>
 
             </div>
@@ -406,11 +406,10 @@
 
             <!--News-->
 
-            <div id="news" class="container text-center whitetext">
+            <div id="news" class="container">
 
-                <br class="spacer-4">
 
-                <h1 class="caps">News:</h1>
+                <h1 class="caps content_title">News:</h1>
             
                 <div class="row news-frames">
 
@@ -419,10 +418,16 @@
                     <div class="news-info">
                         <h1>Title</h1>
                         <p>01.01.2019</p>
-                        <p><b>
+                        <p class="whitetext">
                             Poetic text about beautiful constructions and how can architecture can contribute
                             to world´s salvation through sustainable thinking and long term approach
-                        </b></p>
+                        </p>
+
+                        <a class="more">
+                            <p>Les mer &nbsp; &nbsp;</p>
+                            <span class="icon-sort-right"></span>
+                        </a>
+
 
                     </div>
 
@@ -435,10 +440,15 @@
                     <div class="news-info">
                         <h1>Title</h1>
                         <p>01.01.2019</p>
-                        <p><b>
+                        <p class="whitetext">
                             Poetic text about beautiful constructions and how can architecture can contribute
                             to world´s salvation through sustainable thinking and long term approach
-                        </b></p>
+                        </p>
+
+                        <a class="more">
+                            <p>Les mer &nbsp; &nbsp;</p>
+                            <span class="icon-sort-right"></span>
+                        </a>
 
                     </div>
 
@@ -452,23 +462,39 @@
                     <div class="news-info">
                         <h1>Title</h1>
                         <p>01.01.2019</p>
-                        <p><b>
+                        <p class="whitetext">
                             Poetic text about beautiful constructions and how can architecture can contribute
                             to world´s salvation through sustainable thinking and long term approach
-                        </b></p>
+                        </p>
+
+                        <a class="more">
+                            <p>Les mer &nbsp; &nbsp;</p>
+                            <span class="icon-sort-right"></span>
+                        </a>
 
                     </div>
 
                 </div>
 
             </div>
+
+
+            <div class="responsive-news-frame" style="background-image: url(assets/images/news-sample1.png);"> 
+                <h1 class="caps">Title</h1>
+            </div>
+            <div class="responsive-news-frame" style="background-image: url(assets/images/news-sample2.png);"> 
+                <h1 class="caps">Title</h1>
+            </div>
+            <div class="responsive-news-frame" style="background-image: url(assets/images/news-sample3.png);"> 
+                <h1 class="caps">Title</h1>
+            </div>
+
         
-            <br class="spacer-3">
 
             <div class="section-devider"></div>
 
         </div>
-        
+
         <!--Footer-->
 
         <div id="section-6" class="section-frame">
@@ -479,22 +505,22 @@
 
                     <div class="custom-row">
                         <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>News</li>
-                            <li>Contact us</li>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><li><a href="./index.html#section-2">About</a></li></li>
+                            <li><a href="./index.html#section-5">News</a></li>
+                            <li><a href="#" id="contact_footer">Contact</a></li>
                         </ul>
 
                         <ul>
-                            <li>Sustainability</li>
-                            <li>References</li>
-                            <li>Consultation</li>
+                            <li><a href="#" id="sustainability_footer">Sustainability</a></li>
+                            <li><a href="#" id="references_footer">References</a></li>
+                            <li><a href="#" id="consultation_footer">Consultation</a></li>
                         </ul>
 
                         <ul>
-                            <li>Architecture</li>
+                            <li><a href="./architecture.html" href="#">Architecture</a></li>
                             <li>Hytta</li>
-                            <li>Ai</li>
+                            <li><a href="./ai.html" href="#">Ai</a></li>
                         </ul>
                     </div>
 
@@ -518,8 +544,8 @@
                 <div class="col-md-2">
 
                     <div class="quickicons-list"> 
-                        <i class="fab fa-facebook-square quickicons"></i>
-                        <i class="fab fa-instagram quickicons"></i>
+                        <span class="icon-facebook"></span>
+                        <span class="icon-instagram"></span>
                     </div>
 
                     <img class="bottom-logo" src="assets/images/simple-logo.png" width="108" height="106"/>
@@ -529,6 +555,7 @@
             </div>
 
         </div>
+
 
     </div>
 

@@ -1103,6 +1103,26 @@ body {
 
 /*External Resorces*/
 
+.progress-steps {
+    margin: 0 auto 10vh auto;
+    width: 160px
+}
+
+.progress-steps > p {
+    color: rgb(196, 196, 196);
+    margin: 6px;
+}
+
+.progress-steps > span {
+    color: rgb(196, 196, 196);
+    margin: 10px;
+}
+
+.active-progress-step {
+    border: solid rgb(37, 217, 184);
+    border-width: 1px;
+}
+
 #section-title {
     position: relative;
 }
