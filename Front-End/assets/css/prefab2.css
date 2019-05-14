@@ -81,7 +81,7 @@ input[type=checkbox]
 
 .drag-drop-choice {
     margin: 20px auto 0;
-    width: 80%;
+    width: 100%;
 }
 
 .drag-drop-choice > * {
@@ -95,6 +95,14 @@ input[type=checkbox]
     border-width: 1px;
 }
 
+
+.submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #section-prefab2 a {
     display: inherit;
     color: rgb(80, 227, 194);
@@ -103,13 +111,11 @@ input[type=checkbox]
     width: 200px;
     padding: 12px;
     text-align: center;
-    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
-#section-prefab2 > p {
+.submit-container > p {
     color: white;
-    margin: 0 auto;
-    width: 200px;
 }
 
 @media only screen and (max-width: 700px) {
